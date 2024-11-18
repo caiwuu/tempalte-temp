@@ -1,0 +1,20 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  //禁用回弹效果
+  touch-action: none;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  touch-action: none;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background: #f7f7f9;
+}
